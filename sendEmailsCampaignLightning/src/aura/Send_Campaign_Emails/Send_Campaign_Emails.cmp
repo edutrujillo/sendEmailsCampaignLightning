@@ -1,0 +1,5 @@
+<aura:component implements="force:appHostable,force:lightningQuickActionWithoutHeader,flexipage:availableForAllPageTypes,force:hasRecordId,forceCommunity:availableForAllPageTypes,forceCommunity:layout" access="global" controller="sendCampaignEmails">
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+	<aura:attribute name="recordId" type="String" />
+    <h1 style="text-align:center;font-size: 2em;">Enviando...</h1>
+</aura:component>
